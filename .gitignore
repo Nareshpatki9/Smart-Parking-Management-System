@@ -1,0 +1,47 @@
+# =========================
+# JAVA / SPRING BOOT
+# =========================
+target/
+*.class
+*.jar
+*.war
+*.log
+
+# =========================
+# IDE FILES
+# =========================
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# =========================
+# REACT / NODE.JS
+# =========================
+node_modules/
+dist/
+.vite/
+
+# =========================
+# SECRETS / ENVIRONMENT
+# =========================
+.env
+.env.*
+!.env.example
+application-local.properties
+application-prod.properties
+
+# =========================
+# TEMPORARY / BACKUP FILES
+# =========================
+*.bak
+*.tmp
+*.temp
+
+# =========================
+# OPERATING SYSTEM
+# =========================
+.DS_Store
+Thumbs.db
